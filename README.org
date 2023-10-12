@@ -1,11 +1,4 @@
-* My Project
+Generate a path to a file to use to store app data.
 
-This is a description of my project.
-
-** Installation
-
-To install my project, run this command: go install myproject
-
-** Usage
-
-To use my project, run this command: myproject
+Example
+~/Library/Application Support/bluejoy/keys.db
