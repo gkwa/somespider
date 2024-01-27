@@ -19,7 +19,7 @@ func GenPath(configRelPath string) (string, error) {
 	d := filepath.Dir(configFilePath)
 
 	if err := os.MkdirAll(d, dirPerm); err != nil {
-		slog.Error("cache", "mkdir", "error", err.Error())
+		slog.Error("cache", "mkdir", "error", err)
 		return "", err
 	}
 
